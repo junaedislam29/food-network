@@ -2,6 +2,16 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0;
 }
+h1 {
+  font-size: 65px;
+  color: rgb(85, 85, 85);
+}
+h2 {
+  font-size: 45px;
+}
+h3 {
+  color: rgb(97, 96, 96);
+}
 .skip-diet {
   display: flex;
   padding-top: 100px;
@@ -32,15 +42,15 @@ body {
   margin-left: 300px;
   margin-right: 300px;
 }
-.first-container p {
-  margin-bottom: 50px;
-}
-h1 {
-  font-size: 65px;
-  color: rgb(85, 85, 85);
+#white-color {
+  color: rgb(182, 181, 181);
+  margin-bottom: 0;
 }
 #different-color {
   color: salmon;
+}
+.first-container p {
+  margin-bottom: 50px;
 }
 .gradient-button {
   text-decoration: none;
@@ -52,6 +62,7 @@ h1 {
   box-shadow: 4px 4px 30px rgb(255, 171, 162);
 }
 .food-recipies {
+  margin-bottom: 200px;
 }
 .my-recipies {
   text-align: center;
@@ -73,4 +84,22 @@ h1 {
 }
 .foods-title {
   font-size: 25px;
+}
+.subscription {
+  display: flex;
+  width: 66%;
+  margin-left: 230px;
+  margin-right: 230px;
+  margin-bottom: 200px;
+  box-shadow: 10px 10px 40px rgb(165, 165, 165);
+  border-radius: 10px;
+}
+.subscribers {
+  padding: 9px 2px;
+  margin-left: 15%;
+}
+footer {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 40px 20px 100px 20px;
 }
