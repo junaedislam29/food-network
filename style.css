@@ -15,7 +15,7 @@ body {
   width: 98%;
 }
 #female-2nd {
-  width: 50%;
+  width: 52.2%;
   padding-left: 100px;
 }
 #backround {
@@ -27,6 +27,10 @@ body {
 }
 #text-size {
   font-size: 45px;
+}
+#recipies-paragraph {
+  margin-left: 300px;
+  margin-right: 300px;
 }
 .first-container p {
   margin-bottom: 50px;
@@ -46,4 +50,27 @@ h1 {
   padding: 21px 50px;
   border-radius: 40px;
   box-shadow: 4px 4px 30px rgb(255, 171, 162);
+}
+.food-recipies {
+}
+.my-recipies {
+  text-align: center;
+}
+.recipies-ditails {
+  display: flex;
+  width: 70%;
+  margin: 50px 180px;
+}
+.side-by-side {
+  margin-left: 50px;
+  padding: 25px 25px;
+  width: 30%;
+  box-shadow: 5px 5px 40px rgb(175, 175, 175);
+  border-radius: 20px;
+}
+.side-by-side img {
+  width: 100%;
+}
+.foods-title {
+  font-size: 25px;
 }
